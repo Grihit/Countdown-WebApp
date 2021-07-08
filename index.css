@@ -1,0 +1,55 @@
+.options{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    position: absolute;
+    top: 15vh;
+}
+.option{
+    margin-top: 60px;
+    padding: 10px;
+    width: 85%;
+    height: 40px;
+    background-color: rgb(204, 117, 3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.option span{
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.option:hover{
+    cursor: pointer;
+    height: 100px;
+    border-radius: 20px;
+}
+.newyear:hover{
+    background-image: url(https://images.unsplash.com/photo-1567862605632-98ec20c667f7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmV3eWVhcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60);
+    background-size: cover;
+}
+.newyear:hover span{
+    color: rgb(197, 197, 197);
+}
+.christmas:hover{
+    background-image: url(https://images.unsplash.com/photo-1478265409131-1f65c88f965c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80);
+    background-size: cover;
+}
+.custom{
+    background-position: center;
+}
+.custom:hover{
+    background-image: url(https://images.unsplash.com/photo-1501139083538-0139583c060f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG91cmdsYXNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60);
+    background-size: cover;
+}
+.custom:hover span{
+    color: rgb(197, 197, 197);
+}
